@@ -7,6 +7,7 @@
 void main() 
 {
 	int num=0;
+	printf("inserisi un numero: ");
 	scanf("%d",&num);
 	int lista[num-2];
 	int risultato[num-2];
@@ -28,13 +29,14 @@ void main()
 			{
 				if (mol == risultato[i])
  				{
-		   		    risultato[i] = 0;
+		   		    risultato[i] = -1;
 				}
 			}
         }
     }
 	for (i = 0; i < sizeof(risultato) / sizeof(risultato[0]); i++)
 	{
-    	printf("%d\n",risultato[i]);
+    	printf("i numeri primi sono =>%d\n",risultato[i]);
 	}
+	system("pause");
 }
