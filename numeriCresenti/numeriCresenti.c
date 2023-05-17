@@ -4,7 +4,7 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 void main() {
-	int n1=0,n2=0,n3=0,i=0,j=0;
+	int n1=0,n2=0,n3=0,i=0,j=0,g=0;
 	char p=' ';
 	printf("metti c per cresente e d per decresente=> ");
 	scanf(" %c",&p);
@@ -20,15 +20,15 @@ void main() {
 		{	
 			if(n2<n1)
 			{	
-				p=n2;
+				g=n2;
 				n2=n1;
-				n1=p;
+				n1=g;
 			}
 			if(n3<n2)
 			{	
-				p=n3;
+				g=n3;
 				n3=n2;
-				n2=p;
+				n2=g;
 			}
 		}
 	}
@@ -38,17 +38,18 @@ void main() {
 		{	
 			if(n2>n1)
 			{	
-				p=n2;
+				g=n2;
 				n2=n1;
-				n1=p;
+				n1=g;
 			}
 			if(n3>n2)
 			{	
-				p=n3;
+				g=n3;
 				n3=n2;
-				n2=p;
+				n2=g;
 			}
 		}
 	}
-	printf("i numeri sono %d %d %d",n1,n2,n3);
+	printf("i numeri sono %d %d %d\n",n1,n2,n3);
+	system("pause");
 }
