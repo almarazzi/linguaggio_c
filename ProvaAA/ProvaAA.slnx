@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ProvaAA.vcxproj" Id="5cb672f2-c5b4-4dd8-ad0a-c6d6dd1d45a3" />
+</Solution>

@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Prodotto_Kronecker.vcxproj" Id="137b28c5-ff30-4037-8727-16d175e9d9ea" />
+</Solution>
