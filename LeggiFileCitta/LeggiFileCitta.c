@@ -2,11 +2,12 @@
 
 struct citta* Leggi_Citta(const char* NomeFile, size_t* n)
 {
+	FILE* f;
 	if (n == NULL)
 	{
 		return NULL;
-	}
-	FILE* f = fopen(NomeFile, "r");
+	} 
+	fopen_s(&f,NomeFile, "r");
 	if (!f)
 	{
 		*n = 0;
