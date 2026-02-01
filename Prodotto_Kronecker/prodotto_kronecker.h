@@ -1,5 +1,6 @@
 #pragma once
 #include "malloc.h"
+#include "stdio.h"
 struct Matrche
 {
 	size_t Rige, Colonne;
