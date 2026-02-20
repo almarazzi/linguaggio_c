@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ProvaTempo.vcxproj" Id="cbd7e71e-096b-4997-8210-2af5a19d9817" />
+</Solution>
