@@ -207,7 +207,7 @@ Prigniano, 25
 ```
 
 In questo esempio:
-- La prima riga (`5`) indica che ci sono tre città nel file.
+- La prima riga (`5`) indica che ci sono cinque città nel file.
 - Ogni riga successiva contiene il nome della città e la sua popolazione separati da una virgola.
 
 ## Definizione della struttura `citta`
